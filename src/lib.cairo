@@ -1,9 +1,5 @@
 use starknet::ContractAddress;
 
-pub mod interfaces {
-    pub mod IERC20;    
-}
-
 pub mod ERC20;
 
 #[starknet::interface]
